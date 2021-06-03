@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,300i,700" rel="stylesheet" />
+
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="shortcut icon" type="image/png" href="img/favicon.png" />
+
+    <title>FreeWall API | Exciting Wallpapers for phones</title>
+  </head>
+
+  <body>
+    <header class="header">
+      <div>
+        <h1 class="heading-secondary">FreeWall API</h1>
+      </div>
+    </header>
+
+    <main class="main">
+      <div class="container">
+        <h2>API Endpoints <small>for basic Routes</small></h2>
+        <ul class="responsive-table">
+          <li class="table-header" style="color: #fff;">
+            <div class="col col-1">Method</div>
+            <div class="col col-2">Task</div>
+            <div class="col col-3">Url</div>
+          </li>
+          <li class="table-row">
+            <div class="col col-1" id="get">GET</div>
+            <div class="col col-2">
+              Get All Wallpapers
+            </div>
+            <div class="col col-3">/api/v1/walls</div>
+          </li>
+          <li class="table-row">
+            <div class="col col-1" id="post">POST</div>
+            <div class="col col-2">
+              Create New Wallpaper
+            </div>
+            <div class="col col-3">/api/v1/walls</div>
+          </li>
+          <li class="table-row">
+            <div class="col col-1" id="get">GET</div>
+            <div class="col col-2">
+              Get Wallpaper by ID
+            </div>
+            <div class="col col-3">/api/v1/walls/:id</div>
+          </li>
+          <li class="table-row">
+            <div class="col col-1" id="patch">PATCH</div>
+            <div class="col col-2">
+              Update Wallpaper
+            </div>
+            <div class="col col-3">/api/v1/walls/:id</div>
+          </li>
+          <li class="table-row">
+            <div class="col col-1" id="delete">DELETE</div>
+            <div class="col col-2">
+              Delete Wallpaper
+            </div>
+            <div class="col col-3">/api/v1/walls/:id</div>
+          </li>
+          <li class="table-row">
+            <div class="col col-1" id="get">GET</div>
+            <div class="col col-2">
+              Get Top 5 Wallpaper
+            </div>
+            <div class="col col-3">
+              /api/v1/walls/top-5-walls
+            </div>
+          </li>
+          <li class="table-row">
+            <div class="col col-1" id="get">GET</div>
+            <div class="col col-2">
+              Get Wallpaper Stats
+            </div>
+            <div class="col col-3">/api/v1/wall-stats</div>
+          </li>
+        </ul>
+      </div>
+    </main>
+
+    <div class="footer">
+      <div class="footer__logo">
+        <h2>FreeWall API</h2>
+      </div>
+      <p class="footer__copyright">
+        &copy; by Rohit Gautam. All rights reserved.
+      </p>
+    </div>
+  </body>
+
+</html>
