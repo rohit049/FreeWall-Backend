@@ -19,7 +19,11 @@ Next command: git clone copiedLinkPath.
 create a config.env file with following entries
 
 NODE_ENV=development
+
 PORT=8000
+
 DATABASE=<url_of_mongoDB>
+
 DATABASE_LOCAL=mongodb://127.0.0.1:27017/Freewall
+
 DATABASE_PASSWORD=<DB_PASSWORD>
